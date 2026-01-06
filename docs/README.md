@@ -2,7 +2,7 @@
 
 Ce guide vous explique comment configurer les clés API secrètes (Google & Groq) et comment lancer l'application sur différents systèmes.
 
-https://i.postimg.cc/XYR8JYn9/Capture-d-ecran-du-2026-01-06-09-54-11.png
+<img>https://i.postimg.cc/XYR8JYn9/Capture-d-ecran-du-2026-01-06-09-54-11.png</img>
 
 ---
 
