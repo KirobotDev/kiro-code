@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiro Code - Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=JetBrains+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="icon.png">
+</head>
+
+<body>
+    <div class="bg-grid"></div>
+    <div class="glow-orb"></div>
+
+    <header class="header">
+        <div class="brand">
+            <div class="brand-icon"><img src="icon.png" alt="Icon"></div>
+            <span>KIRO CODE</span>
+        </div>
+        <div class="search-container">
+            <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                stroke-width="2">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" class="search-input" placeholder="Rechercher dans la documentation...">
+        </div>
+    </header>
+
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="nav-section-title">Introduction</div>
+            <div class="nav-item active" onclick="loadPage('intro')">Vue d'ensemble</div>
+            <div class="nav-item" onclick="loadPage('install')">Installation</div>
+
+            <div class="nav-section-title">Guides</div>
+            <div class="nav-item" onclick="loadPage('modes')">Modes Agent vs Ask</div>
+            <div class="nav-item" onclick="loadPage('tools')">Outils Disponibles</div>
+
+            <div class="nav-section-title">API</div>
+            <div class="nav-item" onclick="loadPage('auth')">Authentification</div>
+            <div class="nav-item" onclick="loadPage('files')">Gestion de Fichiers</div>
+        </aside>
+
+        <main class="main-content">
+            <div class="content-wrapper" id="contentArea">
+                <!-- Content injected via JS -->
+            </div>
+        </main>
+    </div>
+
+    <a href="https://sora-bump.com" class="footer-badge" target="_blank">
+        <span>Created by <strong>Kiro Code</strong></span>
+    </a>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
