@@ -2,6 +2,9 @@
 
 Ce guide vous explique comment configurer les clés API secrètes (Google & Groq) et comment lancer l'application sur différents systèmes.
 
+![Autoriser application macOS](https://i.postimg.cc/XYR8JYn9/Capture-d-ecran-du-2026-01-06-09-54-11.png)
+
+
 ---
 
 ## 🛠️ 1. Configuration des Clés (Indispensable)
@@ -108,10 +111,6 @@ Sans signature Apple (programme développeur payant), macOS peut bloquer l'appli
 2. Allez dans **Réglages système > Sécurité et confidentialité**.
 3. En bas de la page, cliquez sur **Autoriser quand même**.
 4. Relancez l'application.
-
-📷 Exemple d'écran macOS :
-
-![Autoriser application macOS](https://i.postimg.cc/XYR8JYn9/Capture-d-ecran-du-2026-01-06-09-54-11.png)
 
 ---
 
