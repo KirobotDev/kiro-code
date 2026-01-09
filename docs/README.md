@@ -84,7 +84,7 @@ Les fichiers générés se trouvent dans le dossier `out/make/`.
 3. Installez le fichier `.deb` :
 
    ```bash
-   sudo dpkg -i multi-ai-chat_1.0.0_amd64.deb
+   sudo dpkg -i kiro-code_amd64.deb
    ```
 4. Lancez l'application depuis le menu ("AI Code Assistant").
 
